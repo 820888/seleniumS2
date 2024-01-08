@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-08T15:56:50 IST" name="Default suite" finished-at="2024-01-08T15:57:06 IST" duration-ms="16573">
+    <groups>
+    </groups>
+    <test started-at="2024-01-08T15:56:50 IST" name="Default test" finished-at="2024-01-08T15:57:06 IST" duration-ms="16573">
+      <class name="Testpages.LoginpageTest">
+        <test-method is-config="true" signature="InitalizeExtentReport()[pri:0, instance:Testpages.LoginpageTest@33065d67]" started-at="2024-01-08T15:56:49 IST" name="InitalizeExtentReport" finished-at="2024-01-08T15:56:50 IST" duration-ms="389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitalizeExtentReport -->
+        <test-method is-config="true" signature="getnameMethod(org.testng.ITestContext)[pri:0, instance:Testpages.LoginpageTest@33065d67]" started-at="2024-01-08T15:56:50 IST" name="getnameMethod" finished-at="2024-01-08T15:56:50 IST" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4ed15347]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getnameMethod -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:Testpages.LoginpageTest@33065d67]" started-at="2024-01-08T15:56:51 IST" name="openApplication" finished-at="2024-01-08T15:56:57 IST" duration-ms="6072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="LoginUser(java.lang.String,java.lang.String)[pri:49, instance:Testpages.LoginpageTest@33065d67]" started-at="2024-01-08T15:56:57 IST" name="LoginUser" data-provider="testdata" finished-at="2024-01-08T15:56:59 IST" duration-ms="2035" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sameena123shaik@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginUser -->
+        <test-method is-config="true" signature="generateTestStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Testpages.LoginpageTest@33065d67]" started-at="2024-01-08T15:56:59 IST" name="generateTestStatus" finished-at="2024-01-08T15:56:59 IST" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Testpages.LoginpageTest.LoginUser(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=LoginUser status=SUCCESS method=LoginpageTest.LoginUser(java.lang.String,java.lang.String)[pri:49, instance:Testpages.LoginpageTest@33065d67] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateTestStatus -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:Testpages.LoginpageTest@33065d67]" started-at="2024-01-08T15:56:59 IST" name="openApplication" finished-at="2024-01-08T15:57:04 IST" duration-ms="5446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="LoginUser(java.lang.String,java.lang.String)[pri:49, instance:Testpages.LoginpageTest@33065d67]" started-at="2024-01-08T15:57:04 IST" name="LoginUser" data-provider="testdata" finished-at="2024-01-08T15:57:06 IST" duration-ms="2086" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sonuuser123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginUser -->
+        <test-method is-config="true" signature="generateTestStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Testpages.LoginpageTest@33065d67]" started-at="2024-01-08T15:57:06 IST" name="generateTestStatus" finished-at="2024-01-08T15:57:06 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Testpages.LoginpageTest.LoginUser(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=LoginUser status=SUCCESS method=LoginpageTest.LoginUser(java.lang.String,java.lang.String)[pri:49, instance:Testpages.LoginpageTest@33065d67] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateTestStatus -->
+        <test-method is-config="true" signature="generateReports()[pri:0, instance:Testpages.LoginpageTest@33065d67]" started-at="2024-01-08T15:57:07 IST" name="generateReports" finished-at="2024-01-08T15:57:09 IST" duration-ms="2567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReports -->
+      </class> <!-- Testpages.LoginpageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
